@@ -9,7 +9,7 @@ title: About
     <div class="about-img text-center">
         <img src="../about/Picture.jpg" alt="Picture of Daniela Zipperer" class="img-responsive img-circle" style="width: 300px; height: auto;">
         <h3 id="about-head">Daniela Zipperer</h3>
-        <p class="headline">PhD Candidate in Accounting2</p>
+        <p class="headline">PhD Candidate in Accounting</p>
         <p class="headline">University of Mannheim</p>
         <p>
         <a href="mailto:daniela.zipperer@uni-mannheim.de" target="_blank"><i class="fas fa-envelope"></i></a>
