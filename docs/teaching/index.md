@@ -3,22 +3,24 @@ title: Teaching
 ---
 # **Teaching** 
 
-<h3><i style="font-weight:bold">University of Zurich</i></h3>
+<h3><i style="font-weight:bold">University of Mannheim</i></h3>
 
 <div class="work-info">
     <ul>
-    <li><i class="fas fa-chalkboard-user"></i>Teaching Assistant, Macroeconomics for Research Students Part I, PhD (Fall 2024)</li>
-    <li><i class="fas fa-chalkboard-user"></i>Teaching Assistant, Economic Foundations for Finance, Master's (Fall 2024)</li>
-    <li><i class="fas fa-chalkboard-user"></i>Teaching Assistant, Real Analysis I, Master's (Fall 2023)</li>
-    <li><i class="fas fa-chalkboard-user"></i>Theses Supervision, Master's and Bachelor's (2023-present)</li>
+    <li><i class="fas fa-chalkboard-user"></i>Teaching Assistant, Management and Cost Accounting, B.Sc. (Spring 2022, Spring 2023, Spring 2024)</li>
+    <li><i class="fas fa-chalkboard-user"></i>Teaching Assistant, Private Equity: Due Diligence and Value Creation, M.Sc. (Fall 2023, Spring 2024)</li>
+    <li><i class="fas fa-chalkboard-user"></i>Teaching Assistant, IFRS Accounting & Capital Markets, M.Sc. (Fall 2021)</li>
+    <li><i class="fas fa-chalkboard-user"></i>Theses Supervision, Master's and Bachelor's (Fall 2021 - present)</li>
     </ul>
 </div>
 
-<h3><i style="font-weight:bold">Powercoders Coding Academy, Zurich, Switzerland</i></h3>
+<h3><i style="font-weight:bold">Mannheim Business School</i></h3>
 
 <div class="work-info">
     <ul>
-    <li><i class="fas fa-person-chalkboard"></i>Python Programming (2021-2022)</li>
+    <li><i class="fas fa-person-chalkboard"></i>Teaching Assistant, Managerial Accounting, FTMBA (Fall 2023 - present)</li>
+    <li><i class="fas fa-person-chalkboard"></i>Teaching Assistant, Managerial Accounting, EMBA (Fall 2023 - present)</li>
+    <li><i class="fas fa-person-chalkboard"></i>Teaching Assistant, Managerial Accounting, PTMBA (Fall 2023 - present)</li>
     </ul>
 </div>
 

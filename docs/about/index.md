@@ -7,21 +7,19 @@ title: About
 <section id="about-sec" class="wg-about-biography">
     <div class="about-grid">
     <div class="about-img text-center">
-        <img src="../about/IgliBajo_Photo.jpeg" alt="Picture of Igli Bajo" class="img-responsive img-circle" style="width: 300px; height: auto;">
-        <h3 id="about-head">Igli Bajo</h3>
-        <p class="headline">PhD Candidate in Finance</p>
-        <p class="headline">University of Zurich and</p>
-        <p class="headline">Swiss Finance Institute</p>
+        <img src="../about/Picture.jpg" alt="Picture of Daniela Zipperer" class="img-responsive img-circle" style="width: 300px; height: auto;">
+        <h3 id="about-head">Daniela Zipperer</h3>
+        <p class="headline">PhD Candidate in Accounting</p>
+        <p class="headline">University of Mannheim</p>
         <p>
-        <a href="mailto:igli.bajo@df.uzh.ch" target="_blank"><i class="fas fa-envelope"></i></a>
-        <a href="https://x.com/IgliBajo" target="_blank"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.linkedin.com/in/igli-bajo-6b3483a4/" target="_blank"><i class="fab fa-linkedin"></i></a>
-        <a href="./CV_IgliBajo.pdf" class="cv-link" target="_blank">CV</a>  
+        <a href="mailto:daniela.zipperer@uni-mannheim.de" target="_blank"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/danielazipperer/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="./CV.pdf" class="cv-link" target="_blank">CV</a>  
         </p>
     </div>
     <div class="about-info">
-        <p>I’m a PhD candidate in Finance at the University of Zurich and the Swiss Finance Institute. I hold a MSc in Economics from the Barcelona School of Economics. <br> <br>
-        My research interests are firm dynamics and corporate finance. In my research, I study how information and financing matter for firm dynamics, and how firm dynamics, in turn, impact short-run and long-run output and welfare.</p>
+        <p>I am a PhD candidate in Accounting at the University in Mannheim. I did a research visit at the Wharton School of the University of Pennsylvania in Philadelphia. I hold a M.Sc. of the University of Mannheim and Bocconi University in Accounting, Financial Management and Control.<br> <br>
+        My research explores the real effects of information disclosure, with a particular focus on environmental information and its impact on firm behavior and capital markets. I am especially interested in how decision making under uncertainty and managerial learning shape responses to disclosure and transparency expectations. To address these questions, I use a combination of archival and (survey) experimental methods.</p>
     </div>
     </div>
 </section>
