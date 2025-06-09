@@ -1,4 +1,5 @@
 site_name: 'Daniela Zipperer <br><small><i>PhD Candidate in Accounting at University of Mannheim&nbsp;</i></small>'
+site_url: https://www.daniela-zipperer.com
 
 nav:
   - About: about/index.md
