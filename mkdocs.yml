@@ -13,8 +13,8 @@ theme:
     - navigation.top
     - navigation.indexes
     - toc.integrate
-  favicon: assets/Logo.png
-  logo: assets/Logo.png  # Update the path to your logo
+  favicon: assets/Logo2.PNG
+  logo: assets/Logo2.PNG  # Update the path to your logo
 
 markdown_extensions:
   - pymdownx.arithmatex  # Render LaTeX math
