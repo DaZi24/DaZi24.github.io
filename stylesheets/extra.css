@@ -83,7 +83,7 @@
         text-align: left;
     } 
     
-    #about-head {
+    #home-head {
         text-align: center;
     }
 }
@@ -108,9 +108,9 @@ details[open] summary {
 }
 
 
-/* ABOUT */
+/* HOME */
 
-.all-about {
+.all-home {
     width: 70%;
     margin: auto;
 }
@@ -166,7 +166,7 @@ details[open] summary {
         align-items: center;
     }
 
-    .all-about {
+    .all-home {
         width: 50%;
         margin: auto;
     }
@@ -247,11 +247,11 @@ details[open] summary {
     padding: 30px 0;
 }
 
-#about-sec {
+#home-sec {
     margin-bottom: 30px;
 }
 
-.about-grid {
+.home-grid {
     display: grid;
     grid-template-columns: 1fr 1.8fr;
     gap: 2.5rem;
@@ -299,7 +299,7 @@ details[open] summary {
     align-items: center;
 }
 
-.about-img, .work-title, .research-title, .teaching-title, .summary-img {
+.home-img, .work-title, .research-title, .teaching-title, .summary-img {
     text-align: center;
 }
 
@@ -322,13 +322,13 @@ details[open] summary {
     margin-top: 1.2rem;
 }
 
-.about-img img {
+.home-img img {
     border-radius: 20%;
     max-width: 100%;
     height: auto;
 }
 
-.about-img h3 {
+.home-img h3 {
     margin-top: 12px;
     font-size: 1.5rem;
     font-weight: 500;
@@ -340,29 +340,29 @@ details[open] summary {
     font-weight: 500;
 }
 
-.about-img a {
+.home-img a {
     color: #0056b3;
     margin: 0px 3px;
     font-size: 1.4rem;
 }
 
-.about-img a:hover {
+.home-img a:hover {
     color: navy;
 }
 
-.about-img .cv-link:hover {
+.home-img .cv-link:hover {
     text-decoration: none;
 }
 
-.about-img .cv-link {
+.home-img .cv-link {
     text-decoration: none;
 }
 
-.about-info, .work-info, .research-info, .teaching-info, .summary-info {
+.home-info, .work-info, .research-info, .teaching-info, .summary-info {
     text-align: left;
 }
 
-.about-info p {
+.home-info p {
     margin-bottom: 1rem;
     font-size: 1rem;
 }
@@ -403,13 +403,13 @@ details[open] summary {
     font-style: italic;
 }
 
-.about-info .bio {
+.home-info .bio {
     margin-bottom: 1rem;
 }
 
 @media (max-width: 990px) {
 
-    .about-grid, .summary-grid {
+    .home-grid, .summary-grid {
         display: grid;
         grid-template-columns: 1fr;
         grid-row-gap: 20px;
