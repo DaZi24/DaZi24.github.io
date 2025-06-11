@@ -158,19 +158,26 @@ details[open] summary {
 }
 
 @media (max-width: 990px) {
-
-    .imgs-container{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-row-gap: 1rem;
+    .imgs-container {
+        display: flex; /* change from grid to flex */
+        flex-direction: column; /* stack vertically */
         align-items: center;
+        row-gap: 1rem; /* similar spacing to your previous grid-row-gap */
+    }
+
+    .img-wrapper {
+        order: 1;
+    }
+
+    .review-text-part {
+        order: 2;
+        text-align: center; /* optional: center text on mobile */
     }
 
     .all-home {
-        width: 50%;
+        width: 90%; /* make better use of space on smaller screens */
         margin: auto;
     }
-
 }
 
 
