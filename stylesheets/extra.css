@@ -494,3 +494,10 @@ details[open] summary {
 .work-info details p, .research-info details p {
     font-size: 0.75rem;
 }
+
+.md-typeset p,
+.md-typeset li,
+.md-typeset ul,
+.md-typeset ol {
+    font-size: 1rem;
+}
