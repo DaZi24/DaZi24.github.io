@@ -158,26 +158,26 @@ details[open] summary {
 }
 
 @media (max-width: 990px) {
-    .imgs-container {
-        display: flex; /* change from grid to flex */
-        flex-direction: column; /* stack vertically */
-        align-items: center;
-        row-gap: 1rem; /* similar spacing to your previous grid-row-gap */
-    }
+  .imgs-container {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    row-gap: 1rem !important;
+  }
 
-    .img-wrapper {
-        order: 1;
-    }
+  .img-wrapper {
+    order: 1 !important;
+  }
 
-    .review-text-part {
-        order: 2;
-        text-align: center; /* optional: center text on mobile */
-    }
+  .review-text-part {
+    order: 2 !important;
+    text-align: center !important;
+  }
 
-    .all-home {
-        width: 90%; /* make better use of space on smaller screens */
-        margin: auto;
-    }
+  .all-home {
+    width: 90% !important;
+    margin: auto !important;
+  }
 }
 
 
