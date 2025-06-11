@@ -157,28 +157,6 @@ details[open] summary {
 	text-decoration: none !important; 
 }
 
-@media (max-width: 990px) {
-  .imgs-container {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    row-gap: 1rem !important;
-  }
-
-  .img-wrapper {
-    order: 1 !important;
-  }
-
-  .review-text-part {
-    order: 2 !important;
-    text-align: center !important;
-  }
-
-  .all-home {
-    width: 90% !important;
-    margin: auto !important;
-  }
-}
 
 
 
@@ -460,6 +438,24 @@ details[open] summary {
     .teaching-sub-grid .teaching-info #li-head {
         margin-top: 2px;
         margin-bottom: 0;
+    }
+
+    .imgs-container {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 1rem !important;
+    }
+
+    .img-wrapper {
+        order: 1 !important;
+        width: 100% !important;
+    }
+
+    .review-text-part {
+        order: 2 !important;
+        width: 100% !important;
+        text-align: center !important;
     }
 
 }
