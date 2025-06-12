@@ -80,35 +80,35 @@
 @media (max-width: 790px) {
 
     .home-grid {
-    display: flex !important;
-    flex-direction: column;
+        display: flex !important;
+        flex-direction: column !important;
     }
   
     .home-picture {
-    order: 1;  /* picture first */
+        order: 1 !important;  /* picture first */
     }
 
     .home-name-icons {
-    order: 2;  /* name + icons second */
+        order: 2 !important;  /* name + icons second */
     }
 
     .home-text {
-    order: 3;  /* text last */
+        order: 3 !important;  /* text last */
     }
 
     .md-typeset h2, .md-typeset h1, .md-typeset h3 {
-        text-align: left;
+        text-align: left !important;
     } 
     
     #home-head {
-        text-align: center;
+        text-align: center !important;
     }
 
     .md-header__title {
-    white-space: normal;  /* allow wrapping */
-    word-wrap: break-word; /* break long words if needed */
-    overflow-wrap: break-word;
-    line-height: 1.2rem;  /* reduce line height if you want tighter lines */
+        white-space: normal !important;       /* allow wrapping */
+        word-wrap: break-word !important;     /* break long words if needed */
+        overflow-wrap: break-word !important;
+        line-height: 1.2rem !important;       /* reduce line height */
     }
 }
 
