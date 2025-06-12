@@ -79,12 +79,36 @@
 
 @media (max-width: 790px) {
 
+    .home-grid {
+    display: flex !important;
+    flex-direction: column;
+    }
+  
+    .home-picture {
+    order: 1;  /* picture first */
+    }
+
+    .home-name-icons {
+    order: 2;  /* name + icons second */
+    }
+
+    .home-text {
+    order: 3;  /* text last */
+    }
+
     .md-typeset h2, .md-typeset h1, .md-typeset h3 {
         text-align: left;
     } 
     
     #home-head {
         text-align: center;
+    }
+
+    .md-header__title {
+    white-space: normal;  /* allow wrapping */
+    word-wrap: break-word; /* break long words if needed */
+    overflow-wrap: break-word;
+    line-height: 1.2rem;  /* reduce line height if you want tighter lines */
     }
 }
 
