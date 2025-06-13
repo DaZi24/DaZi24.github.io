@@ -120,20 +120,22 @@
 
 
 @media (max-width: 768px) {  /* or whatever breakpoint you want */
-  .parent-container {
-    flex-direction: column !important;  /* stack vertically */
-  }
+    .parent-container {
+        flex-direction: column !important;  /* stack vertically */
+    }
 
-  .home-picture {
-    order: 1 !important; /* picture first */
-    width: 100% !important;  /* full width on mobile */
-    max-width: none !important;  /* remove desktop max-width */
-    margin-bottom: 1rem; /* space below image */
-  }
+    .home-picture {
+        order: 1 !important; /* picture first */
+        width: 100% !important;  /* full width on mobile */
+        max-width: none !important;  /* remove desktop max-width */
+        margin-bottom: 1rem; /* space below image */
+        display: block !important;
+        float: none !important;
+    }
 
-  .text-content {
-    order: 2 !important; /* text second */
-  }
+    .text-content {
+        order: 2 !important; /* text second */
+    }
 }
 
 
