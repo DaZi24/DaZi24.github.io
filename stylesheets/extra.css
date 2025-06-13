@@ -86,7 +86,7 @@
   
     .home-picture {
         order: 1 !important;  /* picture first */
-        width: 100% !important;
+        width: 200% !important;
         max-width: 250px !important;
         height: auto !important;
         margin: 0 auto;
