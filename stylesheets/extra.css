@@ -82,6 +82,7 @@
     .home-grid {
         display: flex !important;
         flex-direction: column !important;
+        flex-wrap: nowrap !important;
     }
   
     .home-picture {
