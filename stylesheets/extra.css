@@ -85,12 +85,13 @@
     }
   
     .home-picture {
-        order: 1 !important;  /* picture first */
-        width: 200% !important;
-        max-width: 250px !important;
-        height: auto !important;
-        margin: 0 auto;
-        display: block;
+        display: block;    /* ensures image takes full line */
+        margin: 0 auto;    /* centers it horizontally */
+        max-width: 250px;  /* restrict max size */
+        height: auto;
+        width: 100%;       /* or set an explicit width */
+        order: 1 !important; /* if inside flex container */
+        float: none !important; /* cancel any float */
     }
 
     .home-name-icons {
