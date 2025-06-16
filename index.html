@@ -280,6 +280,69 @@
 <h1 id="welcome"><strong>Welcome!</strong><a class="headerlink" href="#welcome" title="Permanent link">#</a></h1>
 <!-- Include Font Awesome for icons -->
 <p><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"></p>
+<style>
+  /* Default desktop layout: side-by-side */
+  #cv {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  #cv .left {
+    text-align: center;
+    min-width: 320px;
+  }
+
+  #cv .right {
+    max-width: 600px;
+    text-align: justify;
+  }
+
+  /* Mobile layout: stack vertically */
+  @media (max-width: 767px) {
+    #cv {
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+    }
+
+    #cv .left {
+      width: 100%;
+    }
+
+    #cv .right {
+      width: 100%;
+    }
+
+    /* Center text on mobile */
+    #cv .right p {
+      text-align: center;
+    }
+  }
+
+  /* Slight margin below name on mobile */
+  #cv .left h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  /* Icon links spacing */
+  #cv .icons a {
+    margin-right: 10px;
+    color: #0056b3;
+    font-size: 24px;
+  }
+
+  /* Make CV link bold and underline */
+  #cv .icons a.cv-link {
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: underline;
+    margin-right: 10px;
+    color: #0056b3;
+  }
+</style>
+
 <section id="cv" style="display: flex; align-items: flex-start; gap: 20px;">
   <div style="text-align: center;">
     <div style="position: relative; display: inline-block;">
