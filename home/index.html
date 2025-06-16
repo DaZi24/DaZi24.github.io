@@ -314,35 +314,47 @@
 
   /* Mobile layout: stack vertically */
   @media (max-width: 767px) {
+  /* Stack layout vertically on mobile */
     #cv {
       flex-direction: column;
       align-items: center;
       gap: 15px;
     }
 
+  /* Make left side full width and center its content */
     #cv .left {
       width: 100%;
       text-align: center;
     }
 
+  /* Center image container */
     #cv .left > div {
-    display: block;  /* change inline-block to block to take full width */
-    margin-left: auto;
-    margin-right: auto;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
 
+  /* Center image itself */
+    #cv .left img {
+      display: inline-block;
+      margin: 0 auto;
+    }
+
+  /* Center name and give spacing */
+    #cv .left h3 {
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+
+  /* Right side takes full width */
     #cv .right {
       width: 100%;
     }
 
-    /* Center text on mobile */
+  /* Center paragraph text on mobile */
     #cv .right p {
       text-align: center;
-    }
-
-    #cv h3 {
-    text-align: center;
-    margin-top: 10px;  /* optional spacing */
     }
   }
 
