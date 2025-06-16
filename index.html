@@ -283,23 +283,30 @@
 <!-- Mobile Phone Layout -->
 <style>
   @media (max-width: 767px) {
-    /* Stack elements vertically on mobile */
+    /* Stack left and right vertically */
     #cv {
       flex-direction: column;
       align-items: center;
       gap: 20px;
     }
 
-    /* Left side: image, name, icons */
+    /* Image, name, icons: center */
     #cv .left {
-      width: 100%;
       text-align: center;
+      width: 100%;
     }
 
-    /* Right side: biography text */
+    /* Bio text: stay justified on mobile */
     #cv .right {
-      width: 100%;
       text-align: justify;
+      width: 100%;
+      max-width: 600px;
+    }
+
+    /* Center inline content (like image + caption) */
+    #cv .left-inner {
+      display: inline-block;
+      position: relative;
     }
   }
 </style>
