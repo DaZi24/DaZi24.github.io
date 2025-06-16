@@ -280,90 +280,38 @@
 <h1 id="welcome"><strong>Welcome!</strong><a class="headerlink" href="#welcome" title="Permanent link">#</a></h1>
 <!-- Include Font Awesome for icons -->
 <p><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"></p>
+<!-- Mobile Phone Layout -->
 <style>
-  /* Default desktop layout: side-by-side */
-  #cv {
-    display: flex;
-    align-items: flex-start;
-    gap: 20px;
-  }
-
-  #cv .left {
-    text-align: center;
-    min-width: 320px;
-  }
-
-  #cv .right {
-    max-width: 600px;
-    text-align: justify;
-  }
-
-  /* Mobile layout: stack vertically */
   @media (max-width: 767px) {
-  /* Stack layout vertically on mobile */
     #cv {
       flex-direction: column;
       align-items: center;
       gap: 15px;
     }
 
-  /* Make left side full width and center its content */
     #cv .left {
       width: 100%;
       text-align: center;
     }
 
-  /* Center image container */
+    /* Ensure inner div (holding image + © caption) is centered */
     #cv .left > div {
-      display: block;
+      display: inline-block;
       margin-left: auto;
       margin-right: auto;
     }
 
-  /* Center image itself */
-    #cv .left img {
-      display: inline-block;
-      margin: 0 auto;
-    }
-
-  /* Center name and give spacing */
-    #cv .left h3 {
+    /* Center name and all paragraphs in the left block */
+    #cv .left h3,
+    #cv .left p {
       text-align: center;
-      margin-top: 10px;
-      margin-bottom: 5px;
+      margin-left: auto;
+      margin-right: auto;
     }
 
-  /* Right side takes full width */
     #cv .right {
       width: 100%;
     }
-
-  /* Center paragraph text on mobile */
-    #cv .right p {
-      text-align: center;
-    }
-  }
-
-  /* Slight margin below name on mobile */
-  #cv h3 {
-    margin-top: 10px;
-    margin-bottom: 5px;
-  }
-
-  /* Icon links spacing */
-  #cv .icons a {
-    margin-right: 10px;
-    color: #0056b3;
-    font-size: 24px;
-  }
-
-  /* Make CV link bold and underline */
-  #cv .icons a.cv-link {
-    font-weight: bold;
-    font-size: 18px;
-    text-decoration: underline;
-    margin-right: 10px;
-    color: #0056b3;
   }
 </style>
 
