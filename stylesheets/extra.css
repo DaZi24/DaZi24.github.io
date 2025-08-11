@@ -510,6 +510,15 @@ details[open] summary {
 
 }
 
+.work-info .quote {
+    padding-left: 1.5em;
+    margin-bottom: 0.2em;
+    max-width: 900px;
+    width: 100%;
+    display: block;
+}
+
+
 .tabbed-set .tabbed-alternate {
     margin-top: 0;
 }
