@@ -514,8 +514,7 @@ details[open] summary {
     display: block;         /* so margins and widths work */
     max-width: 900px;
     margin: 0;              /* reset default <em> margin */
-    padding-left: 1.1em;    /* space for the hidden icon */
-    text-indent: -1.1em;    /* pull the first line back to align after icon */
+    padding-left: 1.7em;    /* space for the hidden icon */
 }
 
 .tabbed-set .tabbed-alternate {
