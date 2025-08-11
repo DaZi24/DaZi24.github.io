@@ -423,6 +423,8 @@ details[open] summary {
 }
 
 .work-info li, .research-info li, .teaching-info li {
+    display: flex;           /* Keep icon and text aligned */
+    align-items: flex-start;
     margin-bottom: 10px;
 }
 
@@ -431,6 +433,7 @@ details[open] summary {
 }
  
 .work-info li i, .teaching-info li i {
+    min-width: 1.5em;
     margin-right: 10px;
 }
 
@@ -511,11 +514,8 @@ details[open] summary {
 }
 
 .work-info .quote {
-    padding-left: 1.5em;
-    margin-bottom: 0.2em;
+    margin: 0;
     max-width: 900px;
-    width: 100%;
-    display: block;
 }
 
 
