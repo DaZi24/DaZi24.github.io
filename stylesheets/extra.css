@@ -511,10 +511,11 @@ details[open] summary {
 }
 
 .quote {
-    padding-left: 1.2em;
-    margin-bottom: 0;
+    display: block;         /* so margins and widths work */
     max-width: 900px;
-    width: 100%;
+    margin: 0;              /* reset default <em> margin */
+    padding-left: 1.2em;    /* indent all lines */
+    text-indent: -1.2em;    /* pull first line back so it aligns with icon */
 }
 
 .tabbed-set .tabbed-alternate {
