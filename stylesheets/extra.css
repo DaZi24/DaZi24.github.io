@@ -510,6 +510,12 @@ details[open] summary {
 
 }
 
+.quote {
+    padding-left: 1.2em;
+    margin-bottom: 0;
+    max-width: 900px;
+    width: 100%;
+}
 
 .tabbed-set .tabbed-alternate {
     margin-top: 0;
