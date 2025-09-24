@@ -347,18 +347,27 @@
     <ul>
         <li style="text-align: justify;"><i class="far fa-newspaper"></i>"Real Effects of Aggregate Information: Evidence from Environmental Investments" Job Market Paper, single-authored.<br>Draft availabe upon request.&nbsp;
         <!-- Play button next to text -->
-        <span style="color: blue; cursor: pointer;" onclick="document.getElementById('summary-audio').play()">
-            ▶ Play a Google NotebookLM summary
-        </span>
-        <source src="./Audio.mp4" type="video/mp4">
+            <span style="display: inline-flex; align-items: center; cursor: pointer; color: blue;" onclick="playSummary()">
+                ▶ Play a Google NotebookLM Summary
+            </span>
+        <!-- Hidden video -->
+        <video id="summary-video" src="./Audio.mp4" style="display: none;" muted></video>
+        <script>
+            function playSummary() {
+                const video = document.getElementById('summary-video');
+                video.muted = true; // ensures autoplay works in most browsers
+                video.play();
+            }
+        </script>
+        <!-- Abstract -->
         <details open><summary>Summary</summary>
             <div class="summary-grid">
                 <div class="summary-img text-center">
-                    <img src="./Paralleltrends.pdf" alt="Source: RDC of the Federal Statistical Office and Statistical Offices of the Federal States, DOI: 10.21242/32511.2017.00.03.1.1.0, own calculations." class="img-responsive" style="width: 400px; height: auto;">
+                    <img src="./Paralleltrends.png" alt="Source: RDC of the Federal Statistical Office and Statistical Offices of the Federal States, DOI: 10.21242/32511.2017.00.03.1.1.0, own calculations." class="img-responsive" style="width: 400px; height: auto;">
                 </div>
                 <div class="summary-info" style="text-align: justify;">
                 <p class="justified-text">Firms rely on individual peer disclosures to guide investments, but whether they respond to aggregate, industry-wide information is less understood.
-                This paper examines how firms adjust their environmental investments in response to the disclosure of aggregate peer data in statistical reports. My analyses are based on proprietary data covering about 8,000 German firms from 2006 to 2014, exploiting a disclosure change in 2009 that affected one investment type. I find that, following the disclosure change, firms increase their emission reduction investments by 24\% relative to the other six environmental investment types whose aggregate disclosure remains unchanged. This net increase masks shifts in firm behavior: firms that had previously invested below (above) the industry average tend to increase (decrease) their investments, suggesting that firms view the industry average as a better-informed peer benchmark. A complementary survey experiment indicates that information processing costs limit the efficient use of statistical reports, highlighting an important friction in the integration of aggregate disclosures into firm decisions.</p>
+                This paper examines how firms adjust their environmental investments in response to the disclosure of aggregate peer data in statistical reports. My analyses are based on proprietary data covering about 8,000 German firms from 2006 to 2014, exploiting a disclosure change in 2009 that affected one investment type. I find that, following the disclosure change, firms increase their emission reduction investments by 24% relative to the other six environmental investment types whose aggregate disclosure remains unchanged. This net increase masks shifts in firm behavior: firms that had previously invested below (above) the industry average tend to increase (decrease) their investments, suggesting that firms view the industry average as a better-informed peer benchmark. A complementary survey experiment indicates that information processing costs limit the efficient use of statistical reports, highlighting an important friction in the integration of aggregate disclosures into firm decisions.</p>
                 </div>
             </div>
         </details>
