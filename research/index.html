@@ -346,19 +346,11 @@
     <div class="research-info">
     <ul>
         <li style="text-align: justify;"><i class="far fa-newspaper"></i>"Real Effects of Aggregate Information: Evidence from Environmental Investments" Job Market Paper, single-authored.<br>Draft availabe upon request.&nbsp;
-        <!-- Play button next to text -->
-            <span style="display: inline-flex; align-items: center; cursor: pointer; color: blue;" onclick="playSummary()">
-                ▶ Play a Google NotebookLM Summary
-            </span>
-        <!-- Hidden video -->
-        <video id="summary-video" src="./Audio.mp4" style="display: none;" muted></video>
-        <script>
-            function playSummary() {
-                const video = document.getElementById('summary-video');
-                video.muted = true; // ensures autoplay works in most browsers
-                video.play();
-            }
-        </script>
+            <!-- Play button next to text -->
+                <span style="display: inline-flex; align-items: center; cursor: pointer; color: blue;" onclick="document.getElementById('summary').play()">
+                    ▶ Play a Google NotebookLM Summary
+                </span>
+                <audio id="summary" src="./NotebookLM.mp3" preload="none"></audio>
         <!-- Abstract -->
         <details open><summary>Summary</summary>
             <div class="summary-grid">
